@@ -1,0 +1,20 @@
+intents:
+  - greet
+  - what_kyc
+  - how_learn_kyc
+  - thank
+responses:
+  utter_greet:
+  - text: "Bonjour, comment je peux vous aider?"
+
+  utter_what_kyc:
+  - text: "KYC est l’instruction qui consiste à identifier le client et à vérifier toute information collectée avant d’entrer en relation bancaire avec lui."
+  
+  utter_how_learn_kyc:
+  - text: "Je suis le chatbot KYC, je réponds à toutes vos questions."
+  
+  utter_goodbye:
+  - text: "Merci à vous, à la prochaine."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
